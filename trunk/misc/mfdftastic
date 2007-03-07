@@ -1,0 +1,7 @@
+#!/bin/bash
+# Monday, December 5, 2005 12:30:37 PM
+# mark bolding
+
+for f in *.img
+	do fdftastic $1 ${f/.img} $f
+done
